@@ -1,0 +1,18 @@
+{
+    "name": "pestunov/php-container-baking",
+    "description": "An example of how to create a dependency-resolution-enabled IoC Container.",
+    "type": "example",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fedor Pestunov",
+            "email": "fpestunov@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+            "psr-4": {
+                "Example\\": "src"
+            }
+        }
+}
